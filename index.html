@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+
+</head>
+<body>
+   
+    <div class="cursor"></div>
+
+    
+    <nav class="navbar">
+        <div class="logo">MyPortfolio</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+
+<section id="home" class="hero">
+    <h1 class="luckiest-guy-regular">Welcome to Jessica Zhu's Portfolio</h1>
+    <h2 class="luckiest-guy-regular">Creative Designer & Developer</h2>
+    <p href="#work" class="btn luckiest-guy-regular">Explore My Work</p>
+</section>
+
+
+    
+    <section id="work" class="work-section" data-aos="fade-up">
+        <h2>My Work</h2>
+        <div class="projects-container">
+            <div class="projects">
+                <div class="project-card" data-aos="zoom-in" onclick="navigateToProject1()">Project 1</div>
+                <div class="project-card" data-aos="zoom-in" onclick="navigateToProject2()">Project 2</div>
+                <div class="project-card" data-aos="zoom-in" onclick="navigateToProject3()">Project 3</div>
+                <div class="project-card" data-aos="zoom-in" onclick="navigateToProject4()">Project 4</div>
+                <div class="project-card" data-aos="zoom-in" onclick="navigateToProject5()">Project 5</div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section" data-aos="fade-up" onclick="navigateToAboutPage()">
+        <h2>About Me</h2>
+    </section>
+    
+
+   
+    <section id="contact" class="contact-section" data-aos="fade-up">
+        <h2>Contact</h2>
+        <p>Email: zrxjessica@outlook.com</p>
+    </section>
+
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>AOS.init();</script>
+    
+<div class="dynamic-background"></div>
+
+
+
+</body>
+</html>
