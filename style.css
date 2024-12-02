@@ -319,12 +319,12 @@ body {
     padding: 50px 20px;
     text-align: center;
     background: #430a8e;
-    margin-top: 70px; /* 将项目详细信息向下移动100像素 */
-    padding-top: 20px; /* 内部添加额外的间距 */
+    margin-top: 70px; 
+    padding-top: 20px; 
 }
 
 .back-home {
-    position: fixed; /* 保持返回主页按钮固定在左上角 */
+    position: fixed;
     top: 20px;
     left: 20px;
     z-index: 100;
